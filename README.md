@@ -1,11 +1,6 @@
 # 🎯 XGBoost Detective: Book Purchase Prediction Engine (Demo Version)
 (Due to client NDA restrictions, the original dataset is not included. File paths and dataset names are placeholders intended to demonstrate the modeling workflow.)
 
-![Python](https://img.shields.io/badge/python-3.11-blue?style=flat-square)
-![XGBoost](https://img.shields.io/badge/XGBoost-Gradient%20Boosting-orange?style=flat-square)
-![Status](https://img.shields.io/badge/status-demo%20ready-green?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square)
-
 ---
 
 ## 🚀 Project Overview
@@ -24,6 +19,7 @@ Despite decades of customer loyalty, the retailer faced mounting challenges in t
 - Underutilized historical customer data
 Caught between small-store intimacy and big-store resources, leadership realized that intuition and blanket marketing were no longer sufficient. They needed a predictive, data-driven solution to identify high-probability buyers and personalize outreach at scale.
 Objective: Develop a predictive solution to identify high-probability buyers, optimize marketing ROI, and support smarter inventory and retention strategies.
+
 ---
 
 ## 🎯 Business Objectives
@@ -73,11 +69,6 @@ Owing the end-to-end machine learning lifecycle, I:
 
 > Metrics are mean scores from 5-fold CV. Prioritized **recall** and **ROC-AUC** to minimize missed potential buyers.
 
-**Visuals:**  
-![ROC Curve](path/to/roc_curve.png)  
-![Feature Importance](path/to/feature_importance.png)  
-![Class Distribution](path/to/class_distribution.png)  
-
 ---
 
 ## 🛠 Technical & Strategic Decisions
@@ -101,19 +92,6 @@ Owing the end-to-end machine learning lifecycle, I:
 - The final model is intended to deliver stable, quality ranking of potential buyers  
 - Enabled focused targeting → improved campaign ROI  
 - End-to-end ML implementation: problem framing → model → business impact  
-
----
-
-## 🔄 ML Pipeline Diagram
-
-```mermaid
-flowchart TD
-    A[Raw Data] --> B[Data Cleaning & Preprocessing]
-    B --> C[Feature Engineering]
-    C --> D[XGBoost Model Training]
-    D --> E[Model Evaluation & CV]
-    E --> F[Deployment & Batch Scoring]
-    F --> G[Marketing Insights & Campaigns]
 
 ---
 
